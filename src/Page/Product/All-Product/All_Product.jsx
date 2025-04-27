@@ -28,13 +28,13 @@ export default function All_Product() {
   }
 
   return (
-    <div className='w-10/12 mx-auto'>
+    <div className='w-10/12 mx-auto my-10'>
       <div>
-        <h1>All Product Gallery</h1>
+        <h1 className='text-center text-2xl md:text-4xl font-extrabold mb-6'>All Product Gallery</h1>
       </div>
       <div className=''>
-        <div>search filter</div>
-        <div className='gird grid-cols-1 sm:grid-cols-2 md:grid-cols-4'>
+        <div className='text-center text-2xl md:text-4xl font-extrabold mb-6'>search filter</div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4'>
           {
             products.map((item, index)=> (
               <Card key={index.id} item={item} />
