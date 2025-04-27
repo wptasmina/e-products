@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function card() {
+export default function Card({item}) {
+    console.log(item);
+    
   return (
     <div>card</div>
   )
