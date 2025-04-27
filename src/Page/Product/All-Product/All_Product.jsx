@@ -5,8 +5,6 @@ import Card from '../../../components/product-card/card';
 export default function All_Product() {
   const [products, setProducts] = useState()
   const [loading, setLoading] = useState(true);
-
-  console.log(products);
   
 
   useEffect(() => {
